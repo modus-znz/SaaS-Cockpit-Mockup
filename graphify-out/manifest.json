@@ -1,0 +1,87 @@
+{
+  ".oxlintrc.json": {
+    "mtime": 1783805593.2101443,
+    "ast_hash": "5e6e3cea3e89137071c142dd7835b0ef",
+    "semantic_hash": ""
+  },
+  "manifest.json": {
+    "mtime": 1783806270.8731065,
+    "ast_hash": "568f4be64de1b35821e079b42927704c",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1783805593.2141442,
+    "ast_hash": "a13c5219a1508d247de077e325c4cae2",
+    "semantic_hash": ""
+  },
+  "products.json": {
+    "mtime": 1783892281.121129,
+    "ast_hash": "4063d5f0cea665de88d3ee0d8d7c90c1",
+    "semantic_hash": ""
+  },
+  "server.js": {
+    "mtime": 1783807835.0617502,
+    "ast_hash": "4669c2d3ec662eb7e04a7f9df51323c6",
+    "semantic_hash": ""
+  },
+  "src/App.jsx": {
+    "mtime": 1783805593.2141442,
+    "ast_hash": "cd56544ef84672246b9eebbde5b73d5b",
+    "semantic_hash": ""
+  },
+  "src/main.jsx": {
+    "mtime": 1783805593.2141442,
+    "ast_hash": "e13723e2574429d9a6d849727e3ff695",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1783805593.2141442,
+    "ast_hash": "88439104b3c207f17d33ef3160e3b080",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1783805593.2101443,
+    "ast_hash": "75eb386f17caf77fd6fe3ce1d90968ee",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1783805593.2101443,
+    "ast_hash": "e3728c17d6b0c0c91074bdad7c88a5d4",
+    "semantic_hash": ""
+  },
+  "saas-pages/index.html": {
+    "mtime": 1784242295.5097861,
+    "ast_hash": "3674920e66ab837493577c469bfe9a9f",
+    "semantic_hash": ""
+  },
+  "public/favicon.svg": {
+    "mtime": 1783805593.2101443,
+    "ast_hash": "7e840862161341271697daa99a40d76b",
+    "semantic_hash": ""
+  },
+  "public/icons.svg": {
+    "mtime": 1783805593.2101443,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "src/assets/hero.png": {
+    "mtime": 1783805593.2141442,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "src/assets/react.svg": {
+    "mtime": 1783805593.2141442,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  },
+  "src/assets/vite.svg": {
+    "mtime": 1783805593.2141442,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  },
+  "whatsapp-qr.png": {
+    "mtime": 1783853925.0086417,
+    "ast_hash": "851f10b4f3018ffb81535f3bbd778b18",
+    "semantic_hash": ""
+  }
+}

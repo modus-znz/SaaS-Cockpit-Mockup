@@ -1,0 +1,13 @@
+[Unit]
+Description=Nexus SaaS Cockpit Mockup
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /tmp/saas-cockpit/server.js
+Restart=on-failure
+RestartSec=5
+WorkingDirectory=/tmp/saas-cockpit
+
+[Install]
+WantedBy=multi-user.target

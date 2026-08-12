@@ -1,0 +1,15 @@
+[Unit]
+Description=Nexus SaaS Cockpit Web Service
+Documentation=https://github.com/cockpit-project/cockpit
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/lib/cockpit/cockpit-ws --port 9898 --no-tls --local-ssh
+Restart=on-failure
+RestartSec=5
+Environment=COCKPIT_LOG_LEVEL=info
+Environment=COCKPIT_CONFIG_DIR=/etc/cockpit-saas
+
+[Install]
+WantedBy=multi-user.target
