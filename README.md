@@ -1,16 +1,39 @@
-# React + Vite
+# SaaS Cockpit — Multi-Tenant Dashboard Mockup
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A production-quality SaaS dashboard mockup built with **React 18 + Vite**, demonstrating multi-tenant product catalogue management, analytics widgets, and a responsive admin interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📊 **Dashboard Analytics** — real-time stats widgets, charts, and KPI cards
+- 🏪 **Product Catalogue Management** — searchable, filterable product grid with stock tracking
+- 🔐 **Multi-Tenant Architecture** — tenant isolation patterns with role-based access mockup
+- 📱 **Responsive Design** — mobile-first layout, adapts across viewports
+- ⚡ **Vite + React 18** — instant HMR, optimized builds
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 18, Vite, TypeScript
+- **Styling**: CSS Modules, custom design tokens
+- **Tooling**: Oxlint, ESLint
+- **Deployment**: systemd service files included for self-hosted deployment
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Structure
+
+```
+├── saas-pages/     # Static multi-page SaaS mockup (HTML/CSS)
+├── src/            # React SPA dashboard
+├── public/         # Static assets
+├── server.cjs      # Express static server for production
+└── *.service       # systemd unit files for deployment
+```
+
+## License
+
+MIT

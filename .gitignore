@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Internal tooling
+graphify-out/
+.gitattributes
+products.json
